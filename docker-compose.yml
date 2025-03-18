@@ -28,7 +28,7 @@ services:
       - POSTGRES_USER=odoo
       - POSTGRES_PASSWORD=odoo
     ports:
-      - "5432:5432"
+      - "5443:5432"
     volumes:
       - odoo-db-data:/var/lib/postgresql/data
     restart: always
